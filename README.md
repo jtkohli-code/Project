@@ -19,33 +19,28 @@ The Detection Lab project aimed to establish a controlled environment for simula
 - Telemetry generation tools to create realistic network traffic and attack scenarios.
 
 ## Steps
-<img width="706" height="482" alt="image" src="https://github.com/user-attachments/assets/fb8d2bdc-3bf6-4fc3-b750-2de2e5485600" />
-**Figure 1: Kali Linux Virtual Machine Environment**
+<img width="457" height="152" alt="image" src="https://github.com/user-attachments/assets/f1b0fba3-93e3-48c2-a1d7-662b0a70d188" />
+Figure 1: Kali Linux Project Directory Setup
+This screenshot shows the creation of the project directory in Kali Linux and verifies the working directory where the security script and report will be stored.
 
-This screenshot shows the Kali Linux virtual machine running in VMware Workstation Pro. The virtual machine serves as the testing environment for generating security events and analyzing system logs as part of the Detection Lab project.
+<img width="1662" height="457" alt="image" src="https://github.com/user-attachments/assets/832920ab-65c6-4a42-8e8b-7d7c0dc5a8e7" />
+Figure 2: Bash Security Script Creation
+This screenshot shows the Bash script in the Nano text editor. The script automates basic system information collection and a simple privilege check.
 
-<img width="832" height="337" alt="image" src="https://github.com/user-attachments/assets/8993631e-733d-4ddd-975e-c119d654c891" />
-This screenshot is to test the system status of the system.
+<img width="512" height="82" alt="image" src="https://github.com/user-attachments/assets/e7480d98-5867-45a7-8ad0-396511e55c0b" />
+Figure 3: Script Permissions Verification
+This screenshot shows the script's file permissions after execute permission has been added, allowing it to be run as a program.
 
-<img width="1640" height="387" alt="image" src="https://github.com/user-attachments/assets/f0cd4ea0-239a-4ac2-bdc1-db96d89a4305" />
-This screenshot is to test the system status of filebeat.
+<img width="805" height="661" alt="image" src="https://github.com/user-attachments/assets/34a1c393-24f9-45da-af48-02ff8d8211c0" />
+Figure 4: Linux Security Check Execution
+This screenshot demonstrates the completed script executing in Kali Linux and displaying the collected system information.
 
-<img width="1652" height="281" alt="image" src="https://github.com/user-attachments/assets/b5c726c3-9f93-4e24-ae38-cc127e39910c" />
-This screenshot is to test the system status of elasticsearch.
-
-<img width="1632" height="391" alt="image" src="https://github.com/user-attachments/assets/ecc772ce-7c7a-4356-8361-535c28f9e853" />
-This screenshot is to test the system status of kibana.
-
-<img width="427" height="60" alt="image" src="https://github.com/user-attachments/assets/8999db02-6052-4eec-88ec-b4854a2ede22" />
-
-<img width="1087" height="335" alt="image" src="https://github.com/user-attachments/assets/ecc2c23a-4ba7-43f2-b0ce-807e100a32bf" />
-
+<img width="816" height="715" alt="image" src="https://github.com/user-attachments/assets/be3b00ed-76fa-492b-bbdd-6d4b8def2108" />
+<img width="532" height="422" alt="image" src="https://github.com/user-attachments/assets/87d76d10-17e2-4058-8f95-06bc5860d461" />
+Figure 5: Security Report Generation
+These screenshots shows the script output being saved to a text file and displayed in the terminal. The report provides a record of the system information collected during execution.
 
 
-drag & drop screenshots here or use imgur and reference them using imgsrc
 
-Every screenshot should have some text explaining what the screenshot is about.
 
-Example below.
 
-*Ref 1: Network Diagram*
